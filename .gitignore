@@ -1,0 +1,23 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Generated raw simulation logs (plots in results/ ARE committed)
+data/
+*.csv
+
+# OS / editor cruft
+.DS_Store
